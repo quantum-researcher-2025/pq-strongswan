@@ -1,0 +1,1177 @@
+make  install-recursive
+make[1]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6'
+Making install in src
+make[2]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src'
+Making install in .
+make[3]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src'
+make[4]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src'
+make[3]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src'
+Making install in include
+make[3]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/include'
+make[4]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/include'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/include'
+make[3]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/include'
+Making install in libstrongswan
+make[3]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan'
+make  install-recursive
+make[4]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan'
+Making install in .
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan'
+make[6]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan'
+make[6]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/lib/ipsec'
+ /bin/bash ../../libtool   --mode=install /usr/bin/install -c   libstrongswan.la '/usr/lib/ipsec'
+libtool: install: /usr/bin/install -c .libs/libstrongswan.so.0.0.0 /usr/lib/ipsec/libstrongswan.so.0.0.0
+libtool: install: (cd /usr/lib/ipsec && { ln -s -f libstrongswan.so.0.0.0 libstrongswan.so.0 || { rm -f libstrongswan.so.0 && ln -s libstrongswan.so.0.0.0 libstrongswan.so.0; }; })
+libtool: install: (cd /usr/lib/ipsec && { ln -s -f libstrongswan.so.0.0.0 libstrongswan.so || { rm -f libstrongswan.so && ln -s libstrongswan.so.0.0.0 libstrongswan.so; }; })
+libtool: install: /usr/bin/install -c .libs/libstrongswan.lai /usr/lib/ipsec/libstrongswan.la
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin" ldconfig -n /usr/lib/ipsec
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/ipsec
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[6]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan'
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan'
+Making install in plugins/random
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/random'
+make[6]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/random'
+make[6]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/lib/ipsec/plugins'
+ /bin/bash ../../../../libtool   --mode=install /usr/bin/install -c   libstrongswan-random.la '/usr/lib/ipsec/plugins'
+libtool: install: /usr/bin/install -c .libs/libstrongswan-random.so /usr/lib/ipsec/plugins/libstrongswan-random.so
+libtool: install: /usr/bin/install -c .libs/libstrongswan-random.lai /usr/lib/ipsec/plugins/libstrongswan-random.la
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin" ldconfig -n /usr/lib/ipsec/plugins
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/ipsec/plugins
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[6]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/random'
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/random'
+Making install in plugins/nonce
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/nonce'
+make[6]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/nonce'
+make[6]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/lib/ipsec/plugins'
+ /bin/bash ../../../../libtool   --mode=install /usr/bin/install -c   libstrongswan-nonce.la '/usr/lib/ipsec/plugins'
+libtool: install: /usr/bin/install -c .libs/libstrongswan-nonce.so /usr/lib/ipsec/plugins/libstrongswan-nonce.so
+libtool: install: /usr/bin/install -c .libs/libstrongswan-nonce.lai /usr/lib/ipsec/plugins/libstrongswan-nonce.la
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin" ldconfig -n /usr/lib/ipsec/plugins
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/ipsec/plugins
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[6]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/nonce'
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/nonce'
+Making install in plugins/kdf
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/kdf'
+make[6]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/kdf'
+make[6]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/lib/ipsec/plugins'
+ /bin/bash ../../../../libtool   --mode=install /usr/bin/install -c   libstrongswan-kdf.la '/usr/lib/ipsec/plugins'
+libtool: install: /usr/bin/install -c .libs/libstrongswan-kdf.so /usr/lib/ipsec/plugins/libstrongswan-kdf.so
+libtool: install: /usr/bin/install -c .libs/libstrongswan-kdf.lai /usr/lib/ipsec/plugins/libstrongswan-kdf.la
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin" ldconfig -n /usr/lib/ipsec/plugins
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/ipsec/plugins
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[6]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/kdf'
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/kdf'
+Making install in plugins/cmac
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/cmac'
+make[6]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/cmac'
+make[6]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/lib/ipsec/plugins'
+ /bin/bash ../../../../libtool   --mode=install /usr/bin/install -c   libstrongswan-cmac.la '/usr/lib/ipsec/plugins'
+libtool: install: /usr/bin/install -c .libs/libstrongswan-cmac.so /usr/lib/ipsec/plugins/libstrongswan-cmac.so
+libtool: install: /usr/bin/install -c .libs/libstrongswan-cmac.lai /usr/lib/ipsec/plugins/libstrongswan-cmac.la
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin" ldconfig -n /usr/lib/ipsec/plugins
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/ipsec/plugins
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[6]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/cmac'
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/cmac'
+Making install in plugins/xcbc
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/xcbc'
+make[6]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/xcbc'
+make[6]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/lib/ipsec/plugins'
+ /bin/bash ../../../../libtool   --mode=install /usr/bin/install -c   libstrongswan-xcbc.la '/usr/lib/ipsec/plugins'
+libtool: install: /usr/bin/install -c .libs/libstrongswan-xcbc.so /usr/lib/ipsec/plugins/libstrongswan-xcbc.so
+libtool: install: /usr/bin/install -c .libs/libstrongswan-xcbc.lai /usr/lib/ipsec/plugins/libstrongswan-xcbc.la
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin" ldconfig -n /usr/lib/ipsec/plugins
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/ipsec/plugins
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[6]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/xcbc'
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/xcbc'
+Making install in plugins/x509
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/x509'
+make[6]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/x509'
+make[6]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/lib/ipsec/plugins'
+ /bin/bash ../../../../libtool   --mode=install /usr/bin/install -c   libstrongswan-x509.la '/usr/lib/ipsec/plugins'
+libtool: install: /usr/bin/install -c .libs/libstrongswan-x509.so /usr/lib/ipsec/plugins/libstrongswan-x509.so
+libtool: install: /usr/bin/install -c .libs/libstrongswan-x509.lai /usr/lib/ipsec/plugins/libstrongswan-x509.la
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin" ldconfig -n /usr/lib/ipsec/plugins
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/ipsec/plugins
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[6]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/x509'
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/x509'
+Making install in plugins/revocation
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/revocation'
+make[6]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/revocation'
+make[6]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/lib/ipsec/plugins'
+ /bin/bash ../../../../libtool   --mode=install /usr/bin/install -c   libstrongswan-revocation.la '/usr/lib/ipsec/plugins'
+libtool: install: /usr/bin/install -c .libs/libstrongswan-revocation.so /usr/lib/ipsec/plugins/libstrongswan-revocation.so
+libtool: install: /usr/bin/install -c .libs/libstrongswan-revocation.lai /usr/lib/ipsec/plugins/libstrongswan-revocation.la
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin" ldconfig -n /usr/lib/ipsec/plugins
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/ipsec/plugins
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[6]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/revocation'
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/revocation'
+Making install in plugins/constraints
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/constraints'
+make[6]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/constraints'
+make[6]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/lib/ipsec/plugins'
+ /bin/bash ../../../../libtool   --mode=install /usr/bin/install -c   libstrongswan-constraints.la '/usr/lib/ipsec/plugins'
+libtool: install: /usr/bin/install -c .libs/libstrongswan-constraints.so /usr/lib/ipsec/plugins/libstrongswan-constraints.so
+libtool: install: /usr/bin/install -c .libs/libstrongswan-constraints.lai /usr/lib/ipsec/plugins/libstrongswan-constraints.la
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin" ldconfig -n /usr/lib/ipsec/plugins
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/ipsec/plugins
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[6]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/constraints'
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/constraints'
+Making install in plugins/pubkey
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/pubkey'
+make[6]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/pubkey'
+make[6]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/lib/ipsec/plugins'
+ /bin/bash ../../../../libtool   --mode=install /usr/bin/install -c   libstrongswan-pubkey.la '/usr/lib/ipsec/plugins'
+libtool: install: /usr/bin/install -c .libs/libstrongswan-pubkey.so /usr/lib/ipsec/plugins/libstrongswan-pubkey.so
+libtool: install: /usr/bin/install -c .libs/libstrongswan-pubkey.lai /usr/lib/ipsec/plugins/libstrongswan-pubkey.la
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin" ldconfig -n /usr/lib/ipsec/plugins
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/ipsec/plugins
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[6]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/pubkey'
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/pubkey'
+Making install in plugins/pkcs1
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/pkcs1'
+make[6]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/pkcs1'
+make[6]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/lib/ipsec/plugins'
+ /bin/bash ../../../../libtool   --mode=install /usr/bin/install -c   libstrongswan-pkcs1.la '/usr/lib/ipsec/plugins'
+libtool: install: /usr/bin/install -c .libs/libstrongswan-pkcs1.so /usr/lib/ipsec/plugins/libstrongswan-pkcs1.so
+libtool: install: /usr/bin/install -c .libs/libstrongswan-pkcs1.lai /usr/lib/ipsec/plugins/libstrongswan-pkcs1.la
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin" ldconfig -n /usr/lib/ipsec/plugins
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/ipsec/plugins
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[6]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/pkcs1'
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/pkcs1'
+Making install in plugins/pkcs7
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/pkcs7'
+make[6]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/pkcs7'
+make[6]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/lib/ipsec/plugins'
+ /bin/bash ../../../../libtool   --mode=install /usr/bin/install -c   libstrongswan-pkcs7.la '/usr/lib/ipsec/plugins'
+libtool: install: /usr/bin/install -c .libs/libstrongswan-pkcs7.so /usr/lib/ipsec/plugins/libstrongswan-pkcs7.so
+libtool: install: /usr/bin/install -c .libs/libstrongswan-pkcs7.lai /usr/lib/ipsec/plugins/libstrongswan-pkcs7.la
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin" ldconfig -n /usr/lib/ipsec/plugins
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/ipsec/plugins
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[6]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/pkcs7'
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/pkcs7'
+Making install in plugins/pkcs8
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/pkcs8'
+make[6]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/pkcs8'
+make[6]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/lib/ipsec/plugins'
+ /bin/bash ../../../../libtool   --mode=install /usr/bin/install -c   libstrongswan-pkcs8.la '/usr/lib/ipsec/plugins'
+libtool: install: /usr/bin/install -c .libs/libstrongswan-pkcs8.so /usr/lib/ipsec/plugins/libstrongswan-pkcs8.so
+libtool: install: /usr/bin/install -c .libs/libstrongswan-pkcs8.lai /usr/lib/ipsec/plugins/libstrongswan-pkcs8.la
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin" ldconfig -n /usr/lib/ipsec/plugins
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/ipsec/plugins
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[6]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/pkcs8'
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/pkcs8'
+Making install in plugins/pgp
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/pgp'
+make[6]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/pgp'
+make[6]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/lib/ipsec/plugins'
+ /bin/bash ../../../../libtool   --mode=install /usr/bin/install -c   libstrongswan-pgp.la '/usr/lib/ipsec/plugins'
+libtool: install: /usr/bin/install -c .libs/libstrongswan-pgp.so /usr/lib/ipsec/plugins/libstrongswan-pgp.so
+libtool: install: /usr/bin/install -c .libs/libstrongswan-pgp.lai /usr/lib/ipsec/plugins/libstrongswan-pgp.la
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin" ldconfig -n /usr/lib/ipsec/plugins
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/ipsec/plugins
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[6]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/pgp'
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/pgp'
+Making install in plugins/dnskey
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/dnskey'
+make[6]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/dnskey'
+make[6]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/lib/ipsec/plugins'
+ /bin/bash ../../../../libtool   --mode=install /usr/bin/install -c   libstrongswan-dnskey.la '/usr/lib/ipsec/plugins'
+libtool: install: /usr/bin/install -c .libs/libstrongswan-dnskey.so /usr/lib/ipsec/plugins/libstrongswan-dnskey.so
+libtool: install: /usr/bin/install -c .libs/libstrongswan-dnskey.lai /usr/lib/ipsec/plugins/libstrongswan-dnskey.la
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin" ldconfig -n /usr/lib/ipsec/plugins
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/ipsec/plugins
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[6]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/dnskey'
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/dnskey'
+Making install in plugins/sshkey
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/sshkey'
+make[6]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/sshkey'
+make[6]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/lib/ipsec/plugins'
+ /bin/bash ../../../../libtool   --mode=install /usr/bin/install -c   libstrongswan-sshkey.la '/usr/lib/ipsec/plugins'
+libtool: install: /usr/bin/install -c .libs/libstrongswan-sshkey.so /usr/lib/ipsec/plugins/libstrongswan-sshkey.so
+libtool: install: /usr/bin/install -c .libs/libstrongswan-sshkey.lai /usr/lib/ipsec/plugins/libstrongswan-sshkey.la
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin" ldconfig -n /usr/lib/ipsec/plugins
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/ipsec/plugins
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[6]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/sshkey'
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/sshkey'
+Making install in plugins/pem
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/pem'
+make[6]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/pem'
+make[6]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/lib/ipsec/plugins'
+ /bin/bash ../../../../libtool   --mode=install /usr/bin/install -c   libstrongswan-pem.la '/usr/lib/ipsec/plugins'
+libtool: install: /usr/bin/install -c .libs/libstrongswan-pem.so /usr/lib/ipsec/plugins/libstrongswan-pem.so
+libtool: install: /usr/bin/install -c .libs/libstrongswan-pem.lai /usr/lib/ipsec/plugins/libstrongswan-pem.la
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin" ldconfig -n /usr/lib/ipsec/plugins
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/ipsec/plugins
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[6]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/pem'
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/pem'
+Making install in plugins/openssl
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/openssl'
+make[6]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/openssl'
+make[6]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/lib/ipsec/plugins'
+ /bin/bash ../../../../libtool   --mode=install /usr/bin/install -c   libstrongswan-openssl.la '/usr/lib/ipsec/plugins'
+libtool: install: /usr/bin/install -c .libs/libstrongswan-openssl.so /usr/lib/ipsec/plugins/libstrongswan-openssl.so
+libtool: install: /usr/bin/install -c .libs/libstrongswan-openssl.lai /usr/lib/ipsec/plugins/libstrongswan-openssl.la
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin" ldconfig -n /usr/lib/ipsec/plugins
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/ipsec/plugins
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[6]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/openssl'
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/openssl'
+Making install in plugins/gcm
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/gcm'
+make[6]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/gcm'
+make[6]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/lib/ipsec/plugins'
+ /bin/bash ../../../../libtool   --mode=install /usr/bin/install -c   libstrongswan-gcm.la '/usr/lib/ipsec/plugins'
+libtool: install: /usr/bin/install -c .libs/libstrongswan-gcm.so /usr/lib/ipsec/plugins/libstrongswan-gcm.so
+libtool: install: /usr/bin/install -c .libs/libstrongswan-gcm.lai /usr/lib/ipsec/plugins/libstrongswan-gcm.la
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin" ldconfig -n /usr/lib/ipsec/plugins
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/ipsec/plugins
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[6]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/gcm'
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/gcm'
+Making install in plugins/drbg
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/drbg'
+make[6]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/drbg'
+make[6]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/lib/ipsec/plugins'
+ /bin/bash ../../../../libtool   --mode=install /usr/bin/install -c   libstrongswan-drbg.la '/usr/lib/ipsec/plugins'
+libtool: install: /usr/bin/install -c .libs/libstrongswan-drbg.so /usr/lib/ipsec/plugins/libstrongswan-drbg.so
+libtool: install: /usr/bin/install -c .libs/libstrongswan-drbg.lai /usr/lib/ipsec/plugins/libstrongswan-drbg.la
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin" ldconfig -n /usr/lib/ipsec/plugins
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/ipsec/plugins
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[6]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/drbg'
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/drbg'
+Making install in plugins/oqs
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/oqs'
+make[6]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/oqs'
+make[6]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/lib/ipsec/plugins'
+ /bin/bash ../../../../libtool   --mode=install /usr/bin/install -c   libstrongswan-oqs.la '/usr/lib/ipsec/plugins'
+libtool: install: /usr/bin/install -c .libs/libstrongswan-oqs.so /usr/lib/ipsec/plugins/libstrongswan-oqs.so
+libtool: install: /usr/bin/install -c .libs/libstrongswan-oqs.lai /usr/lib/ipsec/plugins/libstrongswan-oqs.la
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin" ldconfig -n /usr/lib/ipsec/plugins
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/ipsec/plugins
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[6]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/oqs'
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/oqs'
+Making install in plugins/frodo
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/frodo'
+make[6]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/frodo'
+make[6]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/lib/ipsec/plugins'
+ /bin/bash ../../../../libtool   --mode=install /usr/bin/install -c   libstrongswan-frodo.la '/usr/lib/ipsec/plugins'
+libtool: install: /usr/bin/install -c .libs/libstrongswan-frodo.so /usr/lib/ipsec/plugins/libstrongswan-frodo.so
+libtool: install: /usr/bin/install -c .libs/libstrongswan-frodo.lai /usr/lib/ipsec/plugins/libstrongswan-frodo.la
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin" ldconfig -n /usr/lib/ipsec/plugins
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/ipsec/plugins
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[6]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/frodo'
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/frodo'
+Making install in tests
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/tests'
+make[6]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/tests'
+make[6]: Nothing to be done for 'install-exec-am'.
+make[6]: Nothing to be done for 'install-data-am'.
+make[6]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/tests'
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/tests'
+Making install in plugins/oqs/tests
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/oqs/tests'
+make[6]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/oqs/tests'
+make[6]: Nothing to be done for 'install-exec-am'.
+make[6]: Nothing to be done for 'install-data-am'.
+make[6]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/oqs/tests'
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/oqs/tests'
+make[4]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan'
+make[3]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan'
+Making install in libtls
+make[3]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libtls'
+Making install in .
+make[4]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libtls'
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libtls'
+make[5]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/lib/ipsec'
+ /bin/bash ../../libtool   --mode=install /usr/bin/install -c   libtls.la '/usr/lib/ipsec'
+libtool: install: (cd /home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libtls; /bin/bash "/home/ubuntu/strongswan/strongswan-6.0.0beta6/libtool"  --tag CC --mode=relink gcc -Werror -Wall -Wextra -Wno-format -Wno-format-security -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-pointer-sign -Wno-sign-compare -Wno-type-limits -Wno-unused-parameter -g -O2 -include /home/ubuntu/strongswan/strongswan-6.0.0beta6/config.h -no-undefined -o libtls.la -rpath /usr/lib/ipsec tls_protection.lo tls_compression.lo tls_fragmentation.lo tls_alert.lo tls_crypto.lo tls_prf.lo tls_hkdf.lo tls_socket.lo tls_eap.lo tls_cache.lo tls_aead_expl.lo tls_aead_impl.lo tls_aead_null.lo tls_aead_seq.lo tls_aead.lo tls_peer.lo tls_server.lo tls.lo ../../src/libstrongswan/libstrongswan.la )
+libtool: relink: gcc -shared  -fPIC -DPIC  .libs/tls_protection.o .libs/tls_compression.o .libs/tls_fragmentation.o .libs/tls_alert.o .libs/tls_crypto.o .libs/tls_prf.o .libs/tls_hkdf.o .libs/tls_socket.o .libs/tls_eap.o .libs/tls_cache.o .libs/tls_aead_expl.o .libs/tls_aead_impl.o .libs/tls_aead_null.o .libs/tls_aead_seq.o .libs/tls_aead.o .libs/tls_peer.o .libs/tls_server.o .libs/tls.o   -Wl,-rpath -Wl,/usr/lib/ipsec -L/usr/lib/ipsec -lstrongswan  -g -O2   -Wl,-soname -Wl,libtls.so.0 -o .libs/libtls.so.0.0.0
+libtool: install: /usr/bin/install -c .libs/libtls.so.0.0.0T /usr/lib/ipsec/libtls.so.0.0.0
+libtool: install: (cd /usr/lib/ipsec && { ln -s -f libtls.so.0.0.0 libtls.so.0 || { rm -f libtls.so.0 && ln -s libtls.so.0.0.0 libtls.so.0; }; })
+libtool: install: (cd /usr/lib/ipsec && { ln -s -f libtls.so.0.0.0 libtls.so || { rm -f libtls.so && ln -s libtls.so.0.0.0 libtls.so; }; })
+libtool: install: /usr/bin/install -c .libs/libtls.lai /usr/lib/ipsec/libtls.la
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin" ldconfig -n /usr/lib/ipsec
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/ipsec
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libtls'
+make[4]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libtls'
+Making install in tests
+make[4]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libtls/tests'
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libtls/tests'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libtls/tests'
+make[4]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libtls/tests'
+make[3]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libtls'
+Making install in libcharon
+make[3]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon'
+make  install-recursive
+make[4]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon'
+Making install in .
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon'
+make[6]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon'
+make[6]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/lib/ipsec'
+ /bin/bash ../../libtool   --mode=install /usr/bin/install -c   libcharon.la '/usr/lib/ipsec'
+libtool: install: (cd /home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon; /bin/bash "/home/ubuntu/strongswan/strongswan-6.0.0beta6/libtool"  --tag CC --mode=relink gcc -Werror -Wall -Wextra -Wno-format -Wno-format-security -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-pointer-sign -Wno-sign-compare -Wno-type-limits -Wno-unused-parameter -g -O2 -include /home/ubuntu/strongswan/strongswan-6.0.0beta6/config.h -no-undefined -o libcharon.la -rpath /usr/lib/ipsec attributes/attributes.lo attributes/attribute_manager.lo attributes/mem_pool.lo bus/bus.lo bus/listeners/file_logger.lo config/backend_manager.lo config/child_cfg.lo config/ike_cfg.lo config/peer_cfg.lo control/controller.lo daemon.lo encoding/generator.lo encoding/message.lo encoding/parser.lo encoding/payloads/auth_payload.lo encoding/payloads/cert_payload.lo encoding/payloads/certreq_payload.lo encoding/payloads/configuration_attribute.lo encoding/payloads/cp_payload.lo encoding/payloads/delete_payload.lo encoding/payloads/eap_payload.lo encoding/payloads/encodings.lo encoding/payloads/encrypted_payload.lo encoding/payloads/id_payload.lo encoding/payloads/ike_header.lo encoding/payloads/ke_payload.lo encoding/payloads/nonce_payload.lo encoding/payloads/notify_payload.lo encoding/payloads/payload.lo encoding/payloads/proposal_substructure.lo encoding/payloads/sa_payload.lo encoding/payloads/traffic_selector_substructure.lo encoding/payloads/transform_attribute.lo encoding/payloads/transform_substructure.lo encoding/payloads/ts_payload.lo encoding/payloads/unknown_payload.lo encoding/payloads/vendor_id_payload.lo encoding/payloads/hash_payload.lo encoding/payloads/fragment_payload.lo kernel/kernel_interface.lo kernel/kernel_ipsec.lo kernel/kernel_net.lo kernel/kernel_handler.lo network/receiver.lo network/sender.lo network/socket.lo network/socket_manager.lo processing/jobs/acquire_job.lo processing/jobs/delete_child_sa_job.lo processing/jobs/delete_ike_sa_job.lo processing/jobs/migrate_job.lo processing/jobs/process_message_job.lo processing/jobs/redirect_job.lo processing/jobs/rekey_child_sa_job.lo processing/jobs/rekey_ike_sa_job.lo processing/jobs/retransmit_job.lo processing/jobs/retry_initiate_job.lo processing/jobs/send_dpd_job.lo processing/jobs/send_keepalive_job.lo processing/jobs/start_action_job.lo processing/jobs/roam_job.lo processing/jobs/update_sa_job.lo processing/jobs/inactivity_job.lo processing/jobs/initiate_tasks_job.lo sa/eap/eap_method.lo sa/eap/eap_manager.lo sa/xauth/xauth_method.lo sa/xauth/xauth_manager.lo sa/authenticator.lo sa/child_sa.lo sa/ike_sa.lo sa/ike_sa_id.lo sa/keymat.lo sa/ike_sa_manager.lo sa/child_sa_manager.lo sa/task_manager.lo sa/shunt_manager.lo sa/trap_manager.lo sa/redirect_manager.lo sa/task.lo sa/ikev2/keymat_v2.lo sa/ikev2/task_manager_v2.lo sa/ikev2/authenticators/eap_authenticator.lo sa/ikev2/authenticators/psk_authenticator.lo sa/ikev2/authenticators/pubkey_authenticator.lo sa/ikev2/tasks/child_create.lo sa/ikev2/tasks/child_delete.lo sa/ikev2/tasks/child_rekey.lo sa/ikev2/tasks/ike_auth.lo sa/ikev2/tasks/ike_cert_pre.lo sa/ikev2/tasks/ike_cert_post.lo sa/ikev2/tasks/ike_config.lo sa/ikev2/tasks/ike_delete.lo sa/ikev2/tasks/ike_dpd.lo sa/ikev2/tasks/ike_establish.lo sa/ikev2/tasks/ike_init.lo sa/ikev2/tasks/ike_natd.lo sa/ikev2/tasks/ike_mid_sync.lo sa/ikev2/tasks/ike_mobike.lo sa/ikev2/tasks/ike_rekey.lo sa/ikev2/tasks/ike_reauth.lo sa/ikev2/tasks/ike_reauth_complete.lo sa/ikev2/tasks/ike_redirect.lo sa/ikev2/tasks/ike_auth_lifetime.lo sa/ikev2/tasks/ike_vendor.lo sa/ikev2/tasks/ike_verify_peer_cert.lo sa/ikev1/keymat_v1.lo sa/ikev1/iv_manager.lo sa/ikev1/task_manager_v1.lo sa/ikev1/authenticators/psk_v1_authenticator.lo sa/ikev1/authenticators/pubkey_v1_authenticator.lo sa/ikev1/authenticators/hybrid_authenticator.lo sa/ikev1/phase1.lo sa/ikev1/tasks/main_mode.lo sa/ikev1/tasks/aggressive_mode.lo sa/ikev1/tasks/informational.lo sa/ikev1/tasks/isakmp_cert_pre.lo sa/ikev1/tasks/isakmp_cert_post.lo sa/ikev1/tasks/isakmp_natd.lo sa/ikev1/tasks/isakmp_vendor.lo sa/ikev1/tasks/isakmp_delete.lo sa/ikev1/tasks/isakmp_dpd.lo sa/ikev1/tasks/xauth.lo sa/ikev1/tasks/quick_mode.lo sa/ikev1/tasks/quick_delete.lo sa/ikev1/tasks/mode_config.lo processing/jobs/dpd_timeout_job.lo processing/jobs/adopt_children_job.lo bus/listeners/sys_logger.lo ../../src/libstrongswan/libstrongswan.la -lm )
+libtool: relink: gcc -shared  -fPIC -DPIC  attributes/.libs/attributes.o attributes/.libs/attribute_manager.o attributes/.libs/mem_pool.o bus/.libs/bus.o bus/listeners/.libs/file_logger.o config/.libs/backend_manager.o config/.libs/child_cfg.o config/.libs/ike_cfg.o config/.libs/peer_cfg.o control/.libs/controller.o .libs/daemon.o encoding/.libs/generator.o encoding/.libs/message.o encoding/.libs/parser.o encoding/payloads/.libs/auth_payload.o encoding/payloads/.libs/cert_payload.o encoding/payloads/.libs/certreq_payload.o encoding/payloads/.libs/configuration_attribute.o encoding/payloads/.libs/cp_payload.o encoding/payloads/.libs/delete_payload.o encoding/payloads/.libs/eap_payload.o encoding/payloads/.libs/encodings.o encoding/payloads/.libs/encrypted_payload.o encoding/payloads/.libs/id_payload.o encoding/payloads/.libs/ike_header.o encoding/payloads/.libs/ke_payload.o encoding/payloads/.libs/nonce_payload.o encoding/payloads/.libs/notify_payload.o encoding/payloads/.libs/payload.o encoding/payloads/.libs/proposal_substructure.o encoding/payloads/.libs/sa_payload.o encoding/payloads/.libs/traffic_selector_substructure.o encoding/payloads/.libs/transform_attribute.o encoding/payloads/.libs/transform_substructure.o encoding/payloads/.libs/ts_payload.o encoding/payloads/.libs/unknown_payload.o encoding/payloads/.libs/vendor_id_payload.o encoding/payloads/.libs/hash_payload.o encoding/payloads/.libs/fragment_payload.o kernel/.libs/kernel_interface.o kernel/.libs/kernel_ipsec.o kernel/.libs/kernel_net.o kernel/.libs/kernel_handler.o network/.libs/receiver.o network/.libs/sender.o network/.libs/socket.o network/.libs/socket_manager.o processing/jobs/.libs/acquire_job.o processing/jobs/.libs/delete_child_sa_job.o processing/jobs/.libs/delete_ike_sa_job.o processing/jobs/.libs/migrate_job.o processing/jobs/.libs/process_message_job.o processing/jobs/.libs/redirect_job.o processing/jobs/.libs/rekey_child_sa_job.o processing/jobs/.libs/rekey_ike_sa_job.o processing/jobs/.libs/retransmit_job.o processing/jobs/.libs/retry_initiate_job.o processing/jobs/.libs/send_dpd_job.o processing/jobs/.libs/send_keepalive_job.o processing/jobs/.libs/start_action_job.o processing/jobs/.libs/roam_job.o processing/jobs/.libs/update_sa_job.o processing/jobs/.libs/inactivity_job.o processing/jobs/.libs/initiate_tasks_job.o sa/eap/.libs/eap_method.o sa/eap/.libs/eap_manager.o sa/xauth/.libs/xauth_method.o sa/xauth/.libs/xauth_manager.o sa/.libs/authenticator.o sa/.libs/child_sa.o sa/.libs/ike_sa.o sa/.libs/ike_sa_id.o sa/.libs/keymat.o sa/.libs/ike_sa_manager.o sa/.libs/child_sa_manager.o sa/.libs/task_manager.o sa/.libs/shunt_manager.o sa/.libs/trap_manager.o sa/.libs/redirect_manager.o sa/.libs/task.o sa/ikev2/.libs/keymat_v2.o sa/ikev2/.libs/task_manager_v2.o sa/ikev2/authenticators/.libs/eap_authenticator.o sa/ikev2/authenticators/.libs/psk_authenticator.o sa/ikev2/authenticators/.libs/pubkey_authenticator.o sa/ikev2/tasks/.libs/child_create.o sa/ikev2/tasks/.libs/child_delete.o sa/ikev2/tasks/.libs/child_rekey.o sa/ikev2/tasks/.libs/ike_auth.o sa/ikev2/tasks/.libs/ike_cert_pre.o sa/ikev2/tasks/.libs/ike_cert_post.o sa/ikev2/tasks/.libs/ike_config.o sa/ikev2/tasks/.libs/ike_delete.o sa/ikev2/tasks/.libs/ike_dpd.o sa/ikev2/tasks/.libs/ike_establish.o sa/ikev2/tasks/.libs/ike_init.o sa/ikev2/tasks/.libs/ike_natd.o sa/ikev2/tasks/.libs/ike_mid_sync.o sa/ikev2/tasks/.libs/ike_mobike.o sa/ikev2/tasks/.libs/ike_rekey.o sa/ikev2/tasks/.libs/ike_reauth.o sa/ikev2/tasks/.libs/ike_reauth_complete.o sa/ikev2/tasks/.libs/ike_redirect.o sa/ikev2/tasks/.libs/ike_auth_lifetime.o sa/ikev2/tasks/.libs/ike_vendor.o sa/ikev2/tasks/.libs/ike_verify_peer_cert.o sa/ikev1/.libs/keymat_v1.o sa/ikev1/.libs/iv_manager.o sa/ikev1/.libs/task_manager_v1.o sa/ikev1/authenticators/.libs/psk_v1_authenticator.o sa/ikev1/authenticators/.libs/pubkey_v1_authenticator.o sa/ikev1/authenticators/.libs/hybrid_authenticator.o sa/ikev1/.libs/phase1.o sa/ikev1/tasks/.libs/main_mode.o sa/ikev1/tasks/.libs/aggressive_mode.o sa/ikev1/tasks/.libs/informational.o sa/ikev1/tasks/.libs/isakmp_cert_pre.o sa/ikev1/tasks/.libs/isakmp_cert_post.o sa/ikev1/tasks/.libs/isakmp_natd.o sa/ikev1/tasks/.libs/isakmp_vendor.o sa/ikev1/tasks/.libs/isakmp_delete.o sa/ikev1/tasks/.libs/isakmp_dpd.o sa/ikev1/tasks/.libs/xauth.o sa/ikev1/tasks/.libs/quick_mode.o sa/ikev1/tasks/.libs/quick_delete.o sa/ikev1/tasks/.libs/mode_config.o processing/jobs/.libs/dpd_timeout_job.o processing/jobs/.libs/adopt_children_job.o bus/listeners/.libs/sys_logger.o   -Wl,-rpath -Wl,/usr/lib/ipsec -L/usr/lib/ipsec -lstrongswan -lm  -g -O2   -Wl,-soname -Wl,libcharon.so.0 -o .libs/libcharon.so.0.0.0
+libtool: install: /usr/bin/install -c .libs/libcharon.so.0.0.0T /usr/lib/ipsec/libcharon.so.0.0.0
+libtool: install: (cd /usr/lib/ipsec && { ln -s -f libcharon.so.0.0.0 libcharon.so.0 || { rm -f libcharon.so.0 && ln -s libcharon.so.0.0.0 libcharon.so.0; }; })
+libtool: install: (cd /usr/lib/ipsec && { ln -s -f libcharon.so.0.0.0 libcharon.so || { rm -f libcharon.so && ln -s libcharon.so.0.0.0 libcharon.so; }; })
+libtool: install: /usr/bin/install -c .libs/libcharon.lai /usr/lib/ipsec/libcharon.la
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin" ldconfig -n /usr/lib/ipsec
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/ipsec
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[6]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon'
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon'
+Making install in plugins/socket_default
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon/plugins/socket_default'
+make[6]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon/plugins/socket_default'
+make[6]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/lib/ipsec/plugins'
+ /bin/bash ../../../../libtool   --mode=install /usr/bin/install -c   libstrongswan-socket-default.la '/usr/lib/ipsec/plugins'
+libtool: install: /usr/bin/install -c .libs/libstrongswan-socket-default.so /usr/lib/ipsec/plugins/libstrongswan-socket-default.so
+libtool: install: /usr/bin/install -c .libs/libstrongswan-socket-default.lai /usr/lib/ipsec/plugins/libstrongswan-socket-default.la
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin" ldconfig -n /usr/lib/ipsec/plugins
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/ipsec/plugins
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[6]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon/plugins/socket_default'
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon/plugins/socket_default'
+Making install in plugins/tcpd
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon/plugins/tcpd'
+make[6]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon/plugins/tcpd'
+make[6]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/lib/ipsec/plugins'
+ /bin/bash ../../../../libtool   --mode=install /usr/bin/install -c   libstrongswan-tcpd.la '/usr/lib/ipsec/plugins'
+libtool: install: /usr/bin/install -c .libs/libstrongswan-tcpd.so /usr/lib/ipsec/plugins/libstrongswan-tcpd.so
+libtool: install: /usr/bin/install -c .libs/libstrongswan-tcpd.lai /usr/lib/ipsec/plugins/libstrongswan-tcpd.la
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin" ldconfig -n /usr/lib/ipsec/plugins
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/ipsec/plugins
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[6]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon/plugins/tcpd'
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon/plugins/tcpd'
+Making install in plugins/vici
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon/plugins/vici'
+make[6]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon/plugins/vici'
+make[7]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon/plugins/vici'
+make[7]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/lib/ipsec'
+ /bin/bash ../../../../libtool   --mode=install /usr/bin/install -c   libvici.la '/usr/lib/ipsec'
+libtool: install: (cd /home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon/plugins/vici; /bin/bash "/home/ubuntu/strongswan/strongswan-6.0.0beta6/libtool"  --tag CC --mode=relink gcc -rdynamic -Werror -Wall -Wextra -Wno-format -Wno-format-security -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-pointer-sign -Wno-sign-compare -Wno-type-limits -Wno-unused-parameter -g -O2 -include /home/ubuntu/strongswan/strongswan-6.0.0beta6/config.h -o libvici.la -rpath /usr/lib/ipsec vici_message.lo vici_builder.lo vici_cert_info.lo libvici.lo ../../../../src/libstrongswan/libstrongswan.la )
+libtool: relink: gcc -shared  -fPIC -DPIC  .libs/vici_message.o .libs/vici_builder.o .libs/vici_cert_info.o .libs/libvici.o   -Wl,-rpath -Wl,/usr/lib/ipsec -L/usr/lib/ipsec -lstrongswan  -g -O2   -Wl,-soname -Wl,libvici.so.0 -o .libs/libvici.so.0.0.0
+libtool: install: /usr/bin/install -c .libs/libvici.so.0.0.0T /usr/lib/ipsec/libvici.so.0.0.0
+libtool: install: (cd /usr/lib/ipsec && { ln -s -f libvici.so.0.0.0 libvici.so.0 || { rm -f libvici.so.0 && ln -s libvici.so.0.0.0 libvici.so.0; }; })
+libtool: install: (cd /usr/lib/ipsec && { ln -s -f libvici.so.0.0.0 libvici.so || { rm -f libvici.so && ln -s libvici.so.0.0.0 libvici.so; }; })
+libtool: install: /usr/bin/install -c .libs/libvici.lai /usr/lib/ipsec/libvici.la
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin" ldconfig -n /usr/lib/ipsec
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/ipsec
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /usr/bin/mkdir -p '/usr/lib/ipsec/plugins'
+ /bin/bash ../../../../libtool   --mode=install /usr/bin/install -c   libstrongswan-vici.la '/usr/lib/ipsec/plugins'
+libtool: install: /usr/bin/install -c .libs/libstrongswan-vici.so /usr/lib/ipsec/plugins/libstrongswan-vici.so
+libtool: install: /usr/bin/install -c .libs/libstrongswan-vici.lai /usr/lib/ipsec/plugins/libstrongswan-vici.la
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin" ldconfig -n /usr/lib/ipsec/plugins
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/ipsec/plugins
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[7]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon/plugins/vici'
+make[6]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon/plugins/vici'
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon/plugins/vici'
+Making install in plugins/updown
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon/plugins/updown'
+make[6]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon/plugins/updown'
+make[6]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/lib/ipsec/plugins'
+ /bin/bash ../../../../libtool   --mode=install /usr/bin/install -c   libstrongswan-updown.la '/usr/lib/ipsec/plugins'
+libtool: install: /usr/bin/install -c .libs/libstrongswan-updown.so /usr/lib/ipsec/plugins/libstrongswan-updown.so
+libtool: install: /usr/bin/install -c .libs/libstrongswan-updown.lai /usr/lib/ipsec/plugins/libstrongswan-updown.la
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin" ldconfig -n /usr/lib/ipsec/plugins
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/ipsec/plugins
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[6]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon/plugins/updown'
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon/plugins/updown'
+Making install in plugins/kernel_netlink
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon/plugins/kernel_netlink'
+make[6]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon/plugins/kernel_netlink'
+make[6]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/lib/ipsec/plugins'
+ /bin/bash ../../../../libtool   --mode=install /usr/bin/install -c   libstrongswan-kernel-netlink.la '/usr/lib/ipsec/plugins'
+libtool: install: /usr/bin/install -c .libs/libstrongswan-kernel-netlink.so /usr/lib/ipsec/plugins/libstrongswan-kernel-netlink.so
+libtool: install: /usr/bin/install -c .libs/libstrongswan-kernel-netlink.lai /usr/lib/ipsec/plugins/libstrongswan-kernel-netlink.la
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin" ldconfig -n /usr/lib/ipsec/plugins
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/ipsec/plugins
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[6]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon/plugins/kernel_netlink'
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon/plugins/kernel_netlink'
+Making install in plugins/xauth_generic
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon/plugins/xauth_generic'
+make[6]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon/plugins/xauth_generic'
+make[6]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/lib/ipsec/plugins'
+ /bin/bash ../../../../libtool   --mode=install /usr/bin/install -c   libstrongswan-xauth-generic.la '/usr/lib/ipsec/plugins'
+libtool: install: /usr/bin/install -c .libs/libstrongswan-xauth-generic.so /usr/lib/ipsec/plugins/libstrongswan-xauth-generic.so
+libtool: install: /usr/bin/install -c .libs/libstrongswan-xauth-generic.lai /usr/lib/ipsec/plugins/libstrongswan-xauth-generic.la
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin" ldconfig -n /usr/lib/ipsec/plugins
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/ipsec/plugins
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[6]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon/plugins/xauth_generic'
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon/plugins/xauth_generic'
+Making install in plugins/resolve
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon/plugins/resolve'
+make[6]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon/plugins/resolve'
+make[6]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/lib/ipsec/plugins'
+ /bin/bash ../../../../libtool   --mode=install /usr/bin/install -c   libstrongswan-resolve.la '/usr/lib/ipsec/plugins'
+libtool: install: /usr/bin/install -c .libs/libstrongswan-resolve.so /usr/lib/ipsec/plugins/libstrongswan-resolve.so
+libtool: install: /usr/bin/install -c .libs/libstrongswan-resolve.lai /usr/lib/ipsec/plugins/libstrongswan-resolve.la
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin" ldconfig -n /usr/lib/ipsec/plugins
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/ipsec/plugins
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[6]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon/plugins/resolve'
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon/plugins/resolve'
+Making install in plugins/attr
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon/plugins/attr'
+make[6]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon/plugins/attr'
+make[6]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/lib/ipsec/plugins'
+ /bin/bash ../../../../libtool   --mode=install /usr/bin/install -c   libstrongswan-attr.la '/usr/lib/ipsec/plugins'
+libtool: install: /usr/bin/install -c .libs/libstrongswan-attr.so /usr/lib/ipsec/plugins/libstrongswan-attr.so
+libtool: install: /usr/bin/install -c .libs/libstrongswan-attr.lai /usr/lib/ipsec/plugins/libstrongswan-attr.la
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/sbin" ldconfig -n /usr/lib/ipsec/plugins
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/lib/ipsec/plugins
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[6]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon/plugins/attr'
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon/plugins/attr'
+Making install in tests
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon/tests'
+make[6]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon/tests'
+make[6]: Nothing to be done for 'install-exec-am'.
+make[6]: Nothing to be done for 'install-data-am'.
+make[6]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon/tests'
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon/tests'
+make[4]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon'
+make[3]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon'
+Making install in xfrmi
+make[3]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/xfrmi'
+make[4]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/xfrmi'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/libexec/ipsec'
+  /bin/bash ../../libtool   --mode=install /usr/bin/install -c xfrmi '/usr/libexec/ipsec'
+libtool: install: /usr/bin/install -c .libs/xfrmi /usr/libexec/ipsec/xfrmi
+make[4]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/xfrmi'
+make[3]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/xfrmi'
+Making install in charon
+make[3]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/charon'
+make[4]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/charon'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/libexec/ipsec'
+  /bin/bash ../../libtool   --mode=install /usr/bin/install -c charon '/usr/libexec/ipsec'
+libtool: install: /usr/bin/install -c .libs/charon /usr/libexec/ipsec/charon
+make[4]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/charon'
+make[3]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/charon'
+Making install in _updown
+make[3]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/_updown'
+make[4]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/_updown'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/libexec/ipsec'
+ /usr/bin/install -c _updown '/usr/libexec/ipsec'
+make[4]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/_updown'
+make[3]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/_updown'
+Making install in pki
+make[3]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/pki'
+Making install in man
+make[4]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/pki/man'
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/pki/man'
+make[5]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/usr/share/man/man1'
+ /usr/bin/install -c -m 644 pki.1 pki---acert.1 pki---dn.1 pki---est.1 pki---estca.1 pki---gen.1 pki---issue.1 pki---keyid.1 pki---ocsp.1 pki---pkcs7.1 pki---print.1 pki---pub.1 pki---req.1 pki---scep.1 pki---scepca.1 pki---self.1 pki---signcrl.1 pki---verify.1 '/usr/share/man/man1'
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/pki/man'
+make[4]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/pki/man'
+make[4]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/pki'
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/pki'
+ /usr/bin/mkdir -p '/usr/bin'
+  /bin/bash ../../libtool   --mode=install /usr/bin/install -c pki '/usr/bin'
+libtool: install: /usr/bin/install -c .libs/pki /usr/bin/pki
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/pki'
+make[4]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/pki'
+make[3]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/pki'
+Making install in swanctl
+make[3]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/swanctl'
+make  install-am
+make[4]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/swanctl'
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/swanctl'
+ /usr/bin/mkdir -p '/usr/sbin'
+  /bin/bash ../../libtool   --mode=install /usr/bin/install -c swanctl '/usr/sbin'
+libtool: install: /usr/bin/install -c .libs/swanctl /usr/sbin/swanctl
+test -e "/etc/swanctl" || /usr/bin/install -c -d "/etc/swanctl" || true
+test -e "/etc/swanctl/conf.d" || /usr/bin/install -c -d "/etc/swanctl/conf.d" || true
+test -e "/etc/swanctl/x509" || /usr/bin/install -c -d "/etc/swanctl/x509" || true
+test -e "/etc/swanctl/x509ca" || /usr/bin/install -c -d "/etc/swanctl/x509ca" || true
+test -e "/etc/swanctl/x509aa" || /usr/bin/install -c -d "/etc/swanctl/x509aa" || true
+test -e "/etc/swanctl/x509ocsp" || /usr/bin/install -c -d "/etc/swanctl/x509ocsp" || true
+test -e "/etc/swanctl/x509crl" || /usr/bin/install -c -d "/etc/swanctl/x509crl" || true
+test -e "/etc/swanctl/x509ac" || /usr/bin/install -c -d "/etc/swanctl/x509ac" || true
+test -e "/etc/swanctl/pubkey" || /usr/bin/install -c -d "/etc/swanctl/pubkey" || true
+test -e "/etc/swanctl/private" || /usr/bin/install -c -d -m 750 "/etc/swanctl/private" || true
+test -e "/etc/swanctl/rsa" || /usr/bin/install -c -d -m 750 "/etc/swanctl/rsa" || true
+test -e "/etc/swanctl/ecdsa" || /usr/bin/install -c -d -m 750 "/etc/swanctl/ecdsa" || true
+test -e "/etc/swanctl/pkcs8" || /usr/bin/install -c -d -m 750 "/etc/swanctl/pkcs8" || true
+test -e "/etc/swanctl/pkcs12" || /usr/bin/install -c -d -m 750 "/etc/swanctl/pkcs12" || true
+test -e "/etc/swanctl/swanctl.conf" || /usr/bin/install -c -m 640 ./swanctl.conf /etc/swanctl/swanctl.conf || true
+ /usr/bin/mkdir -p '/usr/share/man/man5'
+ /usr/bin/install -c -m 644 swanctl.conf.5 '/usr/share/man/man5'
+ /usr/bin/mkdir -p '/usr/share/man/man8'
+ /usr/bin/install -c -m 644 swanctl.8 '/usr/share/man/man8'
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/swanctl'
+make[4]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/swanctl'
+make[3]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/swanctl'
+make[2]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src'
+Making install in man
+make[2]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/man'
+make[3]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/man'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/man'
+make[2]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/man'
+Making install in conf
+make[2]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/conf'
+make  install-am
+make[3]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/conf'
+make[4]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/conf'
+make[4]: Nothing to be done for 'install-exec-am'.
+test -e "`dirname /etc/strongswan.conf`" || /usr/bin/install -c -d "`dirname /etc/strongswan.conf`" || true
+test -e "`dirname /etc/strongswan.conf`/strongswan.d" || /usr/bin/install -c -d "`dirname /etc/strongswan.conf`/strongswan.d" || true
+test -e "`dirname /etc/strongswan.conf`/strongswan.d/charon" || /usr/bin/install -c -d "`dirname /etc/strongswan.conf`/strongswan.d/charon" || true
+test -e "/etc/strongswan.conf" || /usr/bin/install -c -m 644 ./strongswan.conf /etc/strongswan.conf || true
+for f in options/charon.conf options/charon-logging.conf options/pki.conf options/swanctl.conf; do \
+	name=`basename $f`; \
+	test -f "`dirname /etc/strongswan.conf`/strongswan.d/$name" || /usr/bin/install -c -m 644 "./$f" "`dirname /etc/strongswan.conf`/strongswan.d/$name" || true; \
+done
+for f in plugins/random.conf plugins/nonce.conf plugins/x509.conf plugins/revocation.conf plugins/constraints.conf plugins/pubkey.conf plugins/pkcs1.conf plugins/pkcs7.conf plugins/pgp.conf plugins/dnskey.conf plugins/sshkey.conf plugins/pem.conf plugins/openssl.conf plugins/pkcs8.conf plugins/xcbc.conf plugins/cmac.conf plugins/kdf.conf plugins/gcm.conf plugins/frodo.conf plugins/oqs.conf plugins/drbg.conf plugins/attr.conf plugins/kernel-netlink.conf plugins/resolve.conf plugins/socket-default.conf plugins/tcpd.conf plugins/vici.conf plugins/updown.conf plugins/xauth-generic.conf; do \
+	name=`basename $f`; \
+	if test -f "$f"; then dir=; else dir="./"; fi; \
+	test -f "`dirname /etc/strongswan.conf`/strongswan.d/charon/$name" || /usr/bin/install -c -m 644 "$dir$f" "`dirname /etc/strongswan.conf`/strongswan.d/charon/$name" || true; \
+done
+ /usr/bin/mkdir -p '/usr/share/man/man5'
+ /usr/bin/install -c -m 644 strongswan.conf.5 '/usr/share/man/man5'
+ /usr/bin/mkdir -p '/usr/share/strongswan/templates/config/strongswan.d'
+ /usr/bin/install -c -m 644 options/charon.conf options/charon-logging.conf options/pki.conf options/swanctl.conf '/usr/share/strongswan/templates/config/strongswan.d'
+ /usr/bin/mkdir -p '/usr/share/strongswan/templates/config/plugins'
+ /usr/bin/install -c -m 644 plugins/random.conf plugins/nonce.conf plugins/x509.conf plugins/revocation.conf plugins/constraints.conf plugins/pubkey.conf plugins/pkcs1.conf plugins/pkcs7.conf plugins/pgp.conf plugins/dnskey.conf plugins/sshkey.conf plugins/pem.conf plugins/openssl.conf plugins/pkcs8.conf plugins/xcbc.conf plugins/cmac.conf plugins/kdf.conf plugins/gcm.conf plugins/frodo.conf plugins/oqs.conf plugins/drbg.conf plugins/attr.conf plugins/kernel-netlink.conf plugins/resolve.conf plugins/socket-default.conf plugins/tcpd.conf plugins/vici.conf plugins/updown.conf plugins/xauth-generic.conf '/usr/share/strongswan/templates/config/plugins'
+ /usr/bin/mkdir -p '/usr/share/strongswan/templates/config'
+ /usr/bin/install -c -m 644 strongswan.conf '/usr/share/strongswan/templates/config'
+make[4]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/conf'
+make[3]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/conf'
+make[2]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/conf'
+Making install in init
+make[2]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/init'
+Making install in systemd-starter
+make[3]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/init/systemd-starter'
+make[4]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/init/systemd-starter'
+make[4]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/mkdir -p '/lib/systemd/system'
+ /usr/bin/install -c -m 644 strongswan-starter.service '/lib/systemd/system'
+make[4]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/init/systemd-starter'
+make[3]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/init/systemd-starter'
+make[3]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/init'
+make[4]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/init'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/init'
+make[3]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/init'
+make[2]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/init'
+Making install in testing
+make[2]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/testing'
+make[3]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/testing'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/testing'
+make[2]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/testing'
+Making install in scripts
+make[2]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/scripts'
+make[3]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/scripts'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/scripts'
+make[2]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/scripts'
+make[2]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6'
+make[3]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6'
+make[2]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6'
+make[1]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6'

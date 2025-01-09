@@ -1,0 +1,143 @@
+make  all-recursive
+make[1]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6'
+Making all in src
+make[2]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src'
+Making all in .
+make[3]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src'
+Making all in include
+make[3]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/include'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/include'
+Making all in libstrongswan
+make[3]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan'
+make  all-recursive
+make[4]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan'
+Making all in .
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan'
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan'
+Making all in plugins/random
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/random'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/random'
+Making all in plugins/nonce
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/nonce'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/nonce'
+Making all in plugins/kdf
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/kdf'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/kdf'
+Making all in plugins/cmac
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/cmac'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/cmac'
+Making all in plugins/xcbc
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/xcbc'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/xcbc'
+Making all in plugins/x509
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/x509'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/x509'
+Making all in plugins/revocation
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/revocation'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/revocation'
+Making all in plugins/constraints
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/constraints'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/constraints'
+Making all in plugins/pubkey
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/pubkey'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/pubkey'
+Making all in plugins/pkcs1
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/pkcs1'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/pkcs1'
+Making all in plugins/pkcs7
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/pkcs7'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/pkcs7'
+Making all in plugins/pkcs8
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/pkcs8'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/pkcs8'
+Making all in plugins/pgp
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/pgp'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/pgp'
+Making all in plugins/dnskey
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/dnskey'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/dnskey'
+Making all in plugins/sshkey
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/sshkey'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/sshkey'
+Making all in plugins/pem
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/pem'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/pem'
+Making all in plugins/openssl
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/openssl'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/openssl'
+Making all in plugins/gcm
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/gcm'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/gcm'
+Making all in plugins/drbg
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/drbg'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/drbg'
+Making all in plugins/oqs
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/oqs'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/oqs'
+Making all in plugins/frodo
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/frodo'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/frodo'
+Making all in tests
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/tests'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/tests'
+Making all in plugins/oqs/tests
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/oqs/tests'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan/plugins/oqs/tests'
+make[4]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan'
+make[3]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libstrongswan'
+Making all in libtls
+make[3]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libtls'
+Making all in .
+make[4]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libtls'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libtls'
+Making all in tests
+make[4]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libtls/tests'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libtls/tests'
+make[3]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libtls'
+Making all in libcharon
+make[3]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon'
+make  all-recursive
+make[4]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon'
+Making all in .
+make[5]: Entering directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon'
+depbase=`echo network/socket.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/bash ../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../..  -I../../src/include -I../../src/libstrongswan -I../../src/libcharon -DIPSEC_DIR=\"/usr/libexec/ipsec\" -DIPSEC_PIDDIR=\"/var/run\"   -Werror -Wall -Wextra -Wno-format -Wno-format-security -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-pointer-sign -Wno-sign-compare -Wno-type-limits -Wno-unused-parameter -g -O2 -include /home/ubuntu/strongswan/strongswan-6.0.0beta6/config.h -MT network/socket.lo -MD -MP -MF $depbase.Tpo -c -o network/socket.lo network/socket.c &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -I../../src/include -I../../src/libstrongswan -I../../src/libcharon -DIPSEC_DIR=\"/usr/libexec/ipsec\" -DIPSEC_PIDDIR=\"/var/run\" -Werror -Wall -Wextra -Wno-format -Wno-format-security -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-pointer-sign -Wno-sign-compare -Wno-type-limits -Wno-unused-parameter -g -O2 -include /home/ubuntu/strongswan/strongswan-6.0.0beta6/config.h -MT network/socket.lo -MD -MP -MF network/.deps/socket.Tpo -c network/socket.c  -fPIC -DPIC -o network/.libs/socket.o
+depbase=`echo network/socket_manager.lo | sed 's|[^/]*$|.deps/&|;s|\.lo$||'`;\
+/bin/bash ../../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../..  -I../../src/include -I../../src/libstrongswan -I../../src/libcharon -DIPSEC_DIR=\"/usr/libexec/ipsec\" -DIPSEC_PIDDIR=\"/var/run\"   -Werror -Wall -Wextra -Wno-format -Wno-format-security -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-pointer-sign -Wno-sign-compare -Wno-type-limits -Wno-unused-parameter -g -O2 -include /home/ubuntu/strongswan/strongswan-6.0.0beta6/config.h -MT network/socket_manager.lo -MD -MP -MF $depbase.Tpo -c -o network/socket_manager.lo network/socket_manager.c &&\
+mv -f $depbase.Tpo $depbase.Plo
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../.. -I../../src/include -I../../src/libstrongswan -I../../src/libcharon -DIPSEC_DIR=\"/usr/libexec/ipsec\" -DIPSEC_PIDDIR=\"/var/run\" -Werror -Wall -Wextra -Wno-format -Wno-format-security -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-pointer-sign -Wno-sign-compare -Wno-type-limits -Wno-unused-parameter -g -O2 -include /home/ubuntu/strongswan/strongswan-6.0.0beta6/config.h -MT network/socket_manager.lo -MD -MP -MF network/.deps/socket_manager.Tpo -c network/socket_manager.c  -fPIC -DPIC -o network/.libs/socket_manager.o
+make[5]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon'
+make[4]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon'
+make[3]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src/libcharon'
+make[2]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6/src'
+make[1]: Leaving directory '/home/ubuntu/strongswan/strongswan-6.0.0beta6'
